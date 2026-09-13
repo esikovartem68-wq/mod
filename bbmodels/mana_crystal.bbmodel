@@ -1,0 +1,488 @@
+{
+  "format_version": "3.7.4",
+  "model": {
+    "name": "mana_crystal",
+    "description": "Forgotten Arcana \u2014 Mana Crystal (1.20.1, Forge)",
+    "resolution": {
+      "width": 16,
+      "height": 16
+    },
+    "textures": {
+      "0": {
+        "name": "mana_crystal",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACgElEQVR42oWTbUiTURTH/dznvtiHQozeQKEihMB8oYyhmJGhlVJKZVFSqYloSSYZFNaqWTTBxJdCcU1apVSGb2mTka4azkfHps7ppnvm3JabOf/d5z7rjn3RBw73nvOc+zvn/C83bNOufVjPtp4uWdfChKQtl29he2EV6heBZLkCMVUvsbvkIQOUGly4qDbik9UHC0DXknFnEBBxpRyx9+WQPHuNyPw72EaASdJGBqiY/oucvnGc6dJRwLleDsX6xSAggVSMvFSGHQQUVXAP0aSbPdfuMkDxqBMXBky0MgIdZHWNBgGHyp8gIqcIUaR6QoUMsbel2JyexwAFP3nc0NpR+MuBot+LFCD4DCDMvjP3JsKFQ0cyEV/2iPr/AfkaG7K/cEyDdJUWmR26IGBvXikiT11F+LFcxJAu9hMNDl6vZIDUNg2SW9QMcFw5TI0BNrrGE0otUls1IRqktf0QAUaXiwYtKyswe70wud2w+v3wkJjgC0lZnROQNKtDrvF8t1kE6JY8mPCtYo78EPbc8gqmyd5KTO8RAUcbviO+tocBDr/6BknTkAgwkIB2eQ2DdjftpGeWxwRZNUs+dFtEpc92mpDWomWAjHY90hUBEVWT8/ho5jHkBQZJ318X/lB7P7WAYT9oUoZyDAeqO5D9wchGSJT3i4AOfhXtsx60TTuhsnnRS3R6O+PC5yWgddJBkxLlA0hpGsFJxRgFJNUN0RgF1HLzaHcA8jEb3jkBJQ/UGXg0TrnQbPbQpJSGEcTV9IWIKPgU8JRzoFpnwwujm5rwNduB+jk/3jjEEeJk/YiuVIUCZIERhAOPjV5ITT7IzH7UzKzR9TnJfMC5NnzO/wCqJ8ASImaAywAAAABJRU5ErkJggg=="
+      }
+    },
+    "elements": [
+      {
+        "from": [
+          6,
+          2,
+          6
+        ],
+        "to": [
+          10,
+          4,
+          10
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "1f0fe4ee-08da-40f2-a41c-7088b3eb6a1c",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          6,
+          4,
+          6
+        ],
+        "to": [
+          10,
+          12,
+          10
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "a16d2814-9aea-4ef2-935b-5feb8794ed22",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          7,
+          12,
+          7
+        ],
+        "to": [
+          9,
+          14,
+          9
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "f364ffcb-8f54-4cfd-b891-8241b2bbe6b9",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          3,
+          6,
+          6
+        ],
+        "to": [
+          5,
+          10,
+          8
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "57133fae-56d7-40ab-8995-83a0c2a9644d",
+        "visibility": true,
+        "shade": true
+      }
+    ],
+    "groups": [
+      {
+        "name": "mana_crystal",
+        "type": "model",
+        "isOpen": true,
+        "visibility": true,
+        "uuid": "6a563425-f2df-4413-b8d7-257df98dc808",
+        "children": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          2.5,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          2.5,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "headboard": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "fixed": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "ground": {
+        "translation": [
+          0,
+          2,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    "guicube": {
+      "enabled": false,
+      "visible": false,
+      "scale": [
+        22,
+        22,
+        22
+      ]
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "format_version": "3.7.4",
+  "model": {
+    "name": "arcane_altar",
+    "description": "Forgotten Arcana \u2014 Ancient Altar (1.20.1, Forge)",
+    "resolution": {
+      "width": 16,
+      "height": 16
+    },
+    "textures": {
+      "0": {
+        "name": "arcane_altar_side",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACI0lEQVR42qWRSXLaYBCFfYYsXElcxhiCKcAggxjFIBAIkBCDGCUzB7ALByq2s0mqUskqV8g+F8lxco2X6l5I5bUXLf3qfv31618nb0+9eE2c0GO3fEJZMrC0P6GlTlDMaJiO7iEl6zjcfeV6NlHD3eoZZmsOpdCB1d+6gEZlAKNu4cvxJ4v+/v7HZ8pTA9UeH74zmPLPhx/o6TMXMOyuOHR1jPh1kQG/9n8gpeqcX8+OKOV05NMNdPUpf5fzhgvoalMc779hPT1ClU2kbxREgzmekhIqKGV1rG4P7IRypCeNAxCjMu8/7KwYQKJMvMpAahZCeV6lqQwddxNz83IFst7Rbtna2PyITKIKtWwiKZTZOq3QbtoMGPXW2K2eXADtvll8RjGr8d7puIJBZ8lnghYyTQjhPGSpBaNh8bCgT3QBsZDE4tCHFDfawx0HAWmqGJPRa80wt/Y8jGDb5aMLIDFZpHcuqcI05jxh0t9wI4GyYg2+8xjXKAjiAEhE9vwegc8BbxwL+4GBBPKeXbP1yFUG/fYCN5ECQx1ASdJRK/fQ1mw0a0M0qgPnti/OIrCGWxhNC3N7j6BfRCwsQa+PX15iQxng6jLBU+jmCUD5cCDtWKY/Q7l6pQ/Pu7ALCAVSyCZrTFVKHQQu444Dz/swJoMNv0mTiJXQM2Yw23MXEA3luLlSbENTR/BfCCjmNIzMNdeqcheiIOP0jY+H0TqUdwCvif9JocHZ8+Na/wAAAABJRU5ErkJggg=="
+      },
+      "1": {
+        "name": "arcane_altar_top",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB2UlEQVR42qWSS1LCQBCGPYkL15blG0VUQBQCSgiEkJAgJBAeAiKKby3LG3gYFx7Cc7j2Br/TTZEBXZqqziTTf3/z98zMLcwv4j8xRy+/eg1VqaJqDdA4HSFzaMMudvm/U79Hv/WMZKzE/47Rg2sPYeSaEqBlXPSaTxwEI3HLvcXXOzDovGDYfYWebaBWvkCl1IfnXCIVNyVAVWoiORQiH/XKiAunA9/jUct4ODUHaHv3ONw3JOBgt8DEouqzkOz/hlBbNHb9RzRrN9xWACCaXeyxoFN/4DEVt8R+XAvxLazCGc+dt194dO1LsaguAYWTBkMmq1E7H2+fM+FXb4I8LTbTgudcBQ4okjGTi+hJJ2z+JkeTfDSsIbFXlAAj15rpl+xREW0qrcywb5mP7eTFKd1JQElrM3UioMLfLUw7oJbJcQAIrShCUOak54yPMbKZFRdnvBfRcJ7nrML4dIxcG+H1YwnY39awvnQU2Nzbys1YngaTLh7RkT9uSMD2Whqby0nei9BK6s8dmERZ72JrVeHLRDUBQM82YebPxDUdiN76TCf75GJn40RcogqyqZo4uhLbJw3lA0AyZrE4nXBYSKDVxQT3fBQ12TLNUWuq4orVM9gNqRLwn/gBsLBGkSGTrSUAAAAASUVORK5CYII="
+      },
+      "2": {
+        "name": "arcane_altar_bottom",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACMElEQVR42qWRWXPaQBCESeUwmPsQIEBcQiB0INABiFuAwXYqcY6q/P9/0pmdqkh594Ok1W7PNz29qVKhjvc8KfGaqB4854ile8br7Q8W9h6ypOF6+oFGVUWvbUKRp7y/D1/gz09o1ccJ4Cn6yYeiOFhEmBkbFLNtOOYWA8WGPQ35f+1fYYyX/D+3dglg1J+z+Lj9ipV34fVUC1gougmH5bzCTkq5Du6X3wyKAefDNyo8k9DFbn0nByHZfyP7Q/Q7Jix9RUW/yP4zn80t4cxKAMOujWqxSxlERA7gzvaQyn3q1ibrLai9GUNEk1HfQT7TxHZ1SwBSZYBWYwxjsoRc17AkodgLCOg6B+w3L/DmR9QIOqUGYq0SKAYoLR2OtcFk5GLQtTAzQzQlFdfojYAj/tbKPTw+SLxfyrcJckgAsjRiW/Z0TWF10CY3Yi1s59INHkHM7ZEbk1xejt85txggDjfLJ579uH3l8ERgAqLIOuo0jmggsgoWJw5WhB0DPGdP5ACVQged5pg62giDCwWrEHRH1zela/UoYJ8Kb3S1B2iD/zIYUkGXRGJOnYRbEu3CO4UZ8bwGwfuKSUFrKOZaCJdXCtNPAEJYyMrIPzY5tDV173UMLnDJ3cdUgTXiXIT9TxMDduGNuncp/TUlXYNtrKijgfTnCt3QhPfaTY01Y3WOlR/h4VM5ARgTH43aAJkvVXxIZbGYbRmgay5MPUA2LUEbOmT9glymznsCHgPe8/wFZudqItfA/IkAAAAASUVORK5CYII="
+      },
+      "3": {
+        "name": "arcane_altar_cap",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACMElEQVR42qWRyW7TUBSG+yCINRKLqkpD0tA0pCGjMw/ObDu2MzrOnOAMTVBLCiqDgA07HoIH4GF4kR+dg+qoYtnFtY+u7vn+79x79PTJMzxmHdGno64gl8co5wwYzSvUi0O8XX1HJd/H2LjBcvoRW+srrMkdkhEFs8Et79uAdExFIdXmg/GQxI10MJ9sYbf8xv/97gdDhWAdUmnEIQ8MxHQHf36D6ZvFF677rS0SYRmj3jVWs0/cTIbz4XuG2gC1NmMLasoIGtbzz1xHA1XUxAEb6dICPX2DasFELtFES7EOgGxCh5j5Z5AWVCjVCdc/97/Q0VbIp1pYjD8gHpaQjCpIRGTUioMDgOYni/umbFznREon7a62xtTcsyWNdX/OBkzMd2zRa244kZK87hSayhuuu/qa/9b0DlXR/B9AOmZnB02aI/iqiOlgz5qvfSIatSkCFwXMhrc8SiHdRiaucagNoAZK9jjjKGa7GBnXnN5Wlzwz3cu4f8NW9dKQ9x4AKIEaid5qWPB5MpArY9alBrcjhlKuh5C/xOdo3FiwdgC8dCXQ72zhOA7CaF9BqU3Q0VcI+ApoqRbM7g6JqIxzdxK6suC9trY8AEj37FTgEV6cRPgu6Cl1eYFLb56Nzl1JvjwypMsmCxtAiem4yokXnjScJ2H4vTlIlRFClyVeZEkA2ifTlNA4AJIxBS5HFMfP/aiXh5CrY4ao0gylfA9nTgEVsW8/n/s0hnLBOAAes/4CDlUDgoxsqfcAAAAASUVORK5CYII="
+      }
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          10,
+          16
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              6,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 2,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              6,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              6,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              6,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              6,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "96057e00-d5a6-4877-a418-56bd4979b9c2",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          0,
+          10,
+          0
+        ],
+        "to": [
+          16,
+          13,
+          16
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 3,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              0,
+              16,
+              3
+            ],
+            "texture": 3,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              0,
+              16,
+              3
+            ],
+            "texture": 3,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              0,
+              16,
+              3
+            ],
+            "texture": 3,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              0,
+              16,
+              3
+            ],
+            "texture": 3,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "d0a5ba58-090d-44ba-a941-a61941452ad5",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          0,
+          13,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 1,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 3,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              0,
+              16,
+              3
+            ],
+            "texture": 3,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              0,
+              16,
+              3
+            ],
+            "texture": 3,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              0,
+              16,
+              3
+            ],
+            "texture": 3,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              0,
+              16,
+              3
+            ],
+            "texture": 3,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "009ba13b-6cf6-4566-8afd-1f27bfd740f0",
+        "visibility": true,
+        "shade": true
+      }
+    ],
+    "groups": [
+      {
+        "name": "arcane_altar",
+        "type": "model",
+        "isOpen": true,
+        "visibility": true,
+        "uuid": "e95408eb-495f-493d-aa45-ad337f5de5a0",
+        "children": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "display": {},
+    "guicube": {
+      "enabled": false,
+      "visible": false,
+      "scale": [
+        22,
+        22,
+        22
+      ]
+    }
+  }
+}

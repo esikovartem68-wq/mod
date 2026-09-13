@@ -1,0 +1,468 @@
+{
+  "format_version": "3.7.4",
+  "model": {
+    "name": "frost_wand",
+    "description": "Forgotten Arcana \u2014 Frost Wand (1.20.1, Forge)",
+    "resolution": {
+      "width": 16,
+      "height": 16
+    },
+    "textures": {
+      "0": {
+        "name": "frost_wand",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACoElEQVR42n2R3U9SYRzHzz/UdTddlBetG7cu2lprrdZcW7lqzV7sQpdTfCezTEXAFMUXFBVRUcGQbDoRmS5UxJWggLwEBziC58DhfDvnccm48bd99/2e5zy/z/M7z6GuldzGZbpy9ealoqRNllUXpi12tCtHsbFzjGW7m+T/gDGrC8PmLZg2vNDbdtGps0K74CwA1ra9MC45SNPItA2DE0tFgI8aE+T9cxic30T3uA2677+gNqwWAKqhWdIgSTezAoPZXgT4PGSBQr+C1r45aOYc5FnebyoAekdM6NMtkKapxXUoBqaLAJWtA5AppsTGJdR1T6KqfQSNKmMB8KVXfzHBjNWJ/nFzEaCuewpN6lk8r1GgQWlERcM31HzVFwBtilF09E6Ip9uhnbRC3jVcBHhW3Yl3LQMoq/yEVzI1Hla04G2zpgAwWBwXE/RoZ9HWoysCXPob8/k8pJI8k8kQSSUIAvExDtAkOGgZnkgVYaAMp9AViJP3FC/2Z3NAMpVBijkjLtVpmgNzypKsSQHqGI8OP4NmTxj1uwGy1rAXBMWk86CTHNJnwJl4Gi+cKyeC4wkWjZ441DTQdECjI5hF9ZYftTthkskELA9IohkBsSSPKJ1FJM4hHGNJrt1NomorCpmbwcsfv/F67Qhybw41Lhr1+6egUuLJycy5ognAH2aJS+shcey6fQ4fdtJ4Yj5ArZvFe2ccMk8W5ctevLFHQHlPOPhCWZyIdyIpnj73wyBL9OJnlOiB0YOK9QTxskUfym0hPLWKd/AnyCMQA3xhQMpHEXGKvyBr3pCAO+Nu8q2l2m08XgySfN94iEfzfpSv0KDcRzns+bLw+PM4FCG+qAgQJzgICCRf73HghnITJSonSof3id81HOOeMYBbGhf+ARhfAZl3vR8zAAAAAElFTkSuQmCC"
+      }
+    },
+    "elements": [
+      {
+        "from": [
+          7,
+          3,
+          7
+        ],
+        "to": [
+          9,
+          10,
+          9
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              0,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              0,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              0,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              0,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              0,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "5c92f5b1-8567-4146-b226-2aa7fc091306",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          6,
+          6,
+          6
+        ],
+        "to": [
+          10,
+          8,
+          10
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              8,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              8,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              8,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              8,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              8,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              8,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "2f1e8e89-4541-445f-ad0e-a5344086facd",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          6,
+          9,
+          6
+        ],
+        "to": [
+          10,
+          13,
+          10
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              8,
+              8,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              8,
+              8,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              8,
+              8,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              8,
+              8,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              8,
+              8,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "6b32a447-8a73-4e41-8512-4f5c8055ddd5",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          7,
+          10,
+          7
+        ],
+        "to": [
+          9,
+          12,
+          9
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "1e136d9e-cc11-49c5-bca4-bf419442aaa1",
+        "visibility": true,
+        "shade": true
+      }
+    ],
+    "groups": [
+      {
+        "name": "frost_wand",
+        "type": "model",
+        "isOpen": true,
+        "visibility": true,
+        "uuid": "c173539c-0271-4ca1-91d6-6fa7ef47aa89",
+        "children": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          2.5,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          2.5,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "headboard": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "fixed": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "ground": {
+        "translation": [
+          0,
+          2,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    "guicube": {
+      "enabled": false,
+      "visible": false,
+      "scale": [
+        22,
+        22,
+        22
+      ]
+    }
+  }
+}

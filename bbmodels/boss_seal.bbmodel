@@ -1,0 +1,400 @@
+{
+  "format_version": "3.7.4",
+  "model": {
+    "name": "boss_seal",
+    "description": "Forgotten Arcana \u2014 Boss Seal (1.20.1, Forge)",
+    "resolution": {
+      "width": 16,
+      "height": 16
+    },
+    "textures": {
+      "0": {
+        "name": "boss_seal",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACZ0lEQVR42qWRy2sTURjFbx5tXjOdvJtkmpkmk5lMMpNpOuZRLYklVpG6KIIL0VVBt1Lpqq7cBKQW3IiPSqEWQReVUhF3ItaFblypG/0DXPhHHGe+wUZwI3Rx+O7r/O6532XBQBj/ox9v+vj8oomfh0vArx28eraKw20VzN3MJmXEQmkwxtCxT8PPYqiptjMfh49FIYs6vr8e4MO2gU+7zSPAt/2eB8ilS3QowRccU4Tkzl0YH8lS/bjTwvstC+8emQT4sreAgw3JA0TGkwgF46S23ack08UaDL0FTZmBWrawN5Tx/HYBbx94Cf6kIEDQx5PJNTDmp7ELZcwHgcuhJNXxdD1Ppsc3E/8CculpiJOKYwgi7KTQK02CBBmHdHzKeU4VL4cGmTavRY8AT9byHqBRb9NtQR/nNC0CSdQIEHCaORHLQp6qYmOFJ9PuukrjgzstPLxR8ADu4WZjzomdIHPb7pFpxuw6fRFwebCJ7TUV965P4u5KCsOrPNWt1bIH4KMZp2k6qVpxm9agJO43xvkc7QvcJCyjg2goSfvuhXQ5NdHPOX8fdQwhpBIilJJBEvMKSS5WKaVldqh68IAHCI9N4DgigDjRguDXMVM+j+SYASnRRTxQw9f9Lu7f0mitU1tGnrNhSIuYty6hwJ/4CyDYkJJtcExBKlTHnLkMq3yWAFqhhzPdK+B9FcRYGYY8IGWjjRGgVV9CMqxT1aU+EqEqlPxJZDkT09kO5Ewb8XENwpgKq7KIVKSG+dmLI0CzuohiehYVcQ5Sxka91IdWPEUJlEIXprJA85xg0lrXugC7dm4EOI5+AxDQi9hZFnF1AAAAAElFTkSuQmCC"
+      }
+    },
+    "elements": [
+      {
+        "from": [
+          1,
+          4,
+          1
+        ],
+        "to": [
+          15,
+          6,
+          15
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "10c141bb-707e-4225-b608-559c34def90d",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          3,
+          6,
+          3
+        ],
+        "to": [
+          13,
+          7,
+          13
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              10,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              10,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              10,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              10,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              10,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              10,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "eb5aca64-4da9-45bf-8dc1-98627bb70537",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          5,
+          7,
+          5
+        ],
+        "to": [
+          11,
+          8,
+          11
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              10,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              10,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              10,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              10,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              10,
+              0,
+              16,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "d840d2fb-7380-4337-be2c-62948ea9f5f3",
+        "visibility": true,
+        "shade": true
+      }
+    ],
+    "groups": [
+      {
+        "name": "boss_seal",
+        "type": "model",
+        "isOpen": true,
+        "visibility": true,
+        "uuid": "7dfc77d7-a06c-4b5d-8c52-60d9a8fb010e",
+        "children": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.5,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.5,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          5.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          5.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "headboard": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "fixed": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "ground": {
+        "translation": [
+          0,
+          2,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    "guicube": {
+      "enabled": false,
+      "visible": false,
+      "scale": [
+        22,
+        22,
+        22
+      ]
+    }
+  }
+}

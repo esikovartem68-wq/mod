@@ -1,0 +1,410 @@
+{
+  "format_version": "3.7.4",
+  "model": {
+    "name": "frost_bolt",
+    "description": "Forgotten Arcana \u2014 Frost Bolt (1.20.1, Forge)",
+    "resolution": {
+      "width": 16,
+      "height": 16
+    },
+    "textures": {
+      "0": {
+        "name": "frost_bolt",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADU0lEQVR42m2TfUzVVRjHf1t/teWaoz/qv94s06xgqRNYiF3evCnGy0QWgYowyykuk2a1jGENURAIDFJw07mugfOal4HO1kRTUwoEL6CXuLxd7xsXLhfu5b79Pp17WP91tmff55yd5/M8z85zlLahGTonQ7QOTnPdBrqHTq5awkTWnTlIOjpCzulZMk462dbsIf+cn7Sqcfb+Clvq7ShN3Q55ufG+nXYBOGucw2CFNrOKzhSQsN1tkCkAu3SqtJxTbrTVE5ReA6Whd56qu1OcuDcttbbbLYE/GQNU3LSy9xLktcyRVmnmA5G56Ocw6TUWeba10YVSojfx3e1Zjt7zUtcPBwxmjnUvUN0T5PhffrJPOshqsMtKIrZPD8W6MCkVw2TW21BKf5+lsG2EHb8M89UtHwW6x0TODnXNU9LpIL/Fw6bjo7xTcpPNVWNsOTHBVgHNrHtC3mk3irapjyKDi90dbrLOmvjwzBDpzQN8etXD9ks2MkRA4jd9aMqMJJcPsuFwP1qRfceZOXmu5OpnSD8/KfuOq+0lu9VBSvMwsTU9ZOisxJR0kfB1j7j8QPrR+26QXWeRqil7iJJ8zs6qyl4SWyZZWfG3tDU/POKtYw8kdFOFiaRv+9Ec7uONXR1ov3/EtnoreY1OUssHUHw+H/+3VFWVGvv5HTQi+/Kd7Ww8Mkh86Z+88rGeNBEc8RV/QCUQhIhGVkjMUFhd1GAIVhV3sixfT+yBP0gt62djuZF1n90iq8rMawWXUabdfhYCMDXtkxqZwZC6qJ75MBsO3ZfP93JuK/ECsnKngVc/uijtdQFWbFMLeEWgR3Timg0zI8bXMR3A6vTJfez+Llbv+Y2Eg6KVL7t5u6iDl3IuEC+qWCYgysw8/GezAuJZgLEnXqkWR4ClKT+yZs91oos7iNt/g2eTGlhRoCcqrYn1B2+jOD0w6VSxiwkeswVxCdC4PcTwhFf6739xl6jURmIE4IXNLbyYfZ43t19mrYA+k1iLMi7+0uNxP0OjPgbNXmwCZLaqcv+PJcSS9TWs/eQa0YUGlmrqWZF3kfdEJRH/ee0pFKPZz4QLBkYDDI4FGRE/0mRZtKHxEE+tPkJM4RXeLWpnSUI1T8dVsjz3As8lNxCVVM+/Sz0IQIAvoOcAAAAASUVORK5CYII="
+      }
+    },
+    "elements": [
+      {
+        "from": [
+          6,
+          6,
+          6
+        ],
+        "to": [
+          10,
+          10,
+          10
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "de1fa4f4-05cc-4f88-8bef-8d44847b6ffb",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          7,
+          7,
+          7
+        ],
+        "to": [
+          9,
+          9,
+          9
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "ef363363-fdc9-4449-9c3c-40f9ed87439e",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          7,
+          7,
+          10
+        ],
+        "to": [
+          9,
+          9,
+          14
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "d9523297-8a1c-488d-9b06-93cb3aac1492",
+        "visibility": true,
+        "shade": true
+      }
+    ],
+    "groups": [
+      {
+        "name": "frost_bolt",
+        "type": "model",
+        "isOpen": true,
+        "visibility": true,
+        "uuid": "4fb0705a-e5eb-4645-b4ca-0f5b055ce30a",
+        "children": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          2.5,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          2.5,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "headboard": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "fixed": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "ground": {
+        "translation": [
+          0,
+          2,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    "guicube": {
+      "enabled": false,
+      "visible": false,
+      "scale": [
+        22,
+        22,
+        22
+      ]
+    }
+  }
+}

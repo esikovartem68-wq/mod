@@ -1,0 +1,9 @@
+# build workspace (not part of the deliverable)
+work/
+
+# common
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.iml

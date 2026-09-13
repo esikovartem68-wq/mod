@@ -1,0 +1,129 @@
+{
+  "format_version": "3.7.4",
+  "model": {
+    "name": "arcane_ore",
+    "description": "Forgotten Arcana \u2014 Arcane Ore (1.20.1, Forge)",
+    "resolution": {
+      "width": 16,
+      "height": 16
+    },
+    "textures": {
+      "0": {
+        "name": "arcane_ore",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB60lEQVR42qVSuW5TQRTNN6VEVImUxSQYHDtOvOE93vAe23hNvMoLWHEcW1gmVhASUjokaiRKChpqGhoa/oDmwLnSzJPrXOm8O++9O2fOvWc2Njcf4SHY4KNcbmI6XSKRyKPVGqJQqGM4vMZq9RH9/hU6ndcaXm8E9/efsVx+MAhqtQ6KxQbm8xUajR7C4aQU8nskkkYuV5H32a+/AkY+XzUIKpUWBoMJRqOpKFCFxGLxHrPZLUpff68hGs0YBKenPgQCcTS+/RFwnU6XZM12QqGXcqrj7ofGzc07g+D8vIZUqojop58aDObxeI7JZIHHzS8im5nRbo8MAg4qGEzA8va7BkP1y+zxhOFw+KVNtsvBawKeQslkZzs+X1QrULnXG0sr3Mw169ZmcHzskR+E0xmA3f5CCKmMcXLiRTJZQL3eFYur1bZBUCpd4OjIiUzmlWxWJ7lcQXS7b2CxOHBwYF2zkVkTXF729UeFeDwHk8ki6njq7q5ZXGEotwgh2N9/Lt4ylM9sgUpI0mwO4PfH9EyoimutIBbLyoTPzlKG1//f3e4QzGa7XF1aqBziPBiagPI4MOUxM22yWl0yE5Jtbz/R/4jDQ5tkIaBcDmprywSbzS0DZQEd2Nt7hp2dp3JINluWm8k67tEKHoJ/B2Np+GLLJtIAAAAASUVORK5CYII="
+      }
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "61d1fa7f-55c0-4bbe-b2b0-57b25380ec52",
+        "visibility": true,
+        "shade": true
+      }
+    ],
+    "groups": [
+      {
+        "name": "arcane_ore",
+        "type": "model",
+        "isOpen": true,
+        "visibility": true,
+        "uuid": "662faec9-728f-45ed-95a2-e7801d419250",
+        "children": [
+          0
+        ]
+      }
+    ],
+    "display": {},
+    "guicube": {
+      "enabled": false,
+      "visible": false,
+      "scale": [
+        22,
+        22,
+        22
+      ]
+    }
+  }
+}
