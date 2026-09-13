@@ -1,0 +1,400 @@
+{
+  "format_version": "3.7.4",
+  "model": {
+    "name": "mana_shard",
+    "description": "Forgotten Arcana \u2014 Mana Shard (1.20.1, Forge)",
+    "resolution": {
+      "width": 16,
+      "height": 16
+    },
+    "textures": {
+      "0": {
+        "name": "mana_shard",
+        "type": "single",
+        "texture": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACf0lEQVR42oXTX0hTURwHcN+CHnrpxSKyh5DqKVeU0F5cpFHii1vhaNIIzJGKpqSZVCYtKEkxkUpIK9P++KDiJIfKYJu0KaFz03JTRiub7rrtts1tufnt3HPtzr3ohR/3nMPvfM7v/g43ZfcREbaLg/KabSOFSzpw4y5ONrQh9Xot0srqkdX8FjltHwTgps2DCusKuGeJhHY5CqVhPgGcb3mHvYpypJc34GilGp1+IHcLIB+xotK2imvGBQpUzXpR6wgmgDP3n9EQ17fSzTmNHRBVPxaAy58tKDa56Mn/Kyj96k4Ah65WIrPmCfbkKSGua0J60W3sKygRgIrpVUgHp1A9F0CV1Q+V6Rfk2tkEkJpfhP2yYmSU3IOYnJxJPmOXRCYARUYXCkftUIzM0wpu2QJQ6ha3VHBJhcPyUpxQ1eEYqSaNYKLiOwJQNslAOmBB6YSHArkfzcjrnUwAO12jYtiOQq1D6IG0z4IyM8MDDFkIkXCFw1hgWbhjMSzH4zScQb7T3HOh25zUxLMdeh7gFpxxYMYfAHfT014W8+G/WFzfgJvM6TVq7BTZCsj6Npv4bQMwrLCYYCMw+dbwxRui8+8kcZwJ0CRJux5XNAtJQH6vlQeMgTh03giGfnrpKdxY41qFnl2H4U+MJp1uGkZBv10AxK1jyHqx+Qn97jV8+uGHLgyMBoEx0pBBTxTcOhdcUvYrM0491SZVkNs1xQM9S2G8drIYYIH3vyPo9cToWEOwPh/fA3GLDufaTUmA5Pk4D3STyrl4w/8raJpj6LuHbO5ieCC7fQIXO6foRm6coR7C8YcaHmh2RvFozg/1rA8PLB683IQaHSE0zDA7/s7/AAckwhtzDyW5AAAAAElFTkSuQmCC"
+      }
+    },
+    "elements": [
+      {
+        "from": [
+          6,
+          2,
+          6
+        ],
+        "to": [
+          10,
+          4,
+          10
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              0,
+              8,
+              8
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "8917afa8-b46e-44c8-8599-8994fae8f01a",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          7,
+          4,
+          7
+        ],
+        "to": [
+          9,
+          10,
+          9
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "down": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              8,
+              0,
+              16,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "014b6ad8-60fa-4c0d-afcd-2cbf153d780c",
+        "visibility": true,
+        "shade": true
+      },
+      {
+        "from": [
+          7,
+          10,
+          7
+        ],
+        "to": [
+          9,
+          12,
+          9
+        ],
+        "faces": {
+          "up": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "north": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "south": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "west": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          },
+          "east": {
+            "uv": [
+              0,
+              8,
+              8,
+              16
+            ],
+            "texture": 0,
+            "cull": true
+          }
+        },
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "uuid": "cb0f2cd3-dc9e-412a-9b46-caf55cefaeb0",
+        "visibility": true,
+        "shade": true
+      }
+    ],
+    "groups": [
+      {
+        "name": "mana_shard",
+        "type": "model",
+        "isOpen": true,
+        "visibility": true,
+        "uuid": "3de90411-9248-4749-a199-29ec68e5300d",
+        "children": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.0,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          3.0,
+          0
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          4.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          4.0,
+          1
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "headboard": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "fixed": {
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "ground": {
+        "translation": [
+          0,
+          2,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    "guicube": {
+      "enabled": false,
+      "visible": false,
+      "scale": [
+        22,
+        22,
+        22
+      ]
+    }
+  }
+}
