@@ -1,101 +1,127 @@
-# Забытые Арканы | Forgotten Arcana
+# ArcanaForge — общий мод (сборка) | Bundle
 
-Магический мод для **Minecraft 1.20.1 (Forge 47+)**.
+Один JAR для **Minecraft 1.20.1 (Forge 47+)**, в котором живут сразу
+**два мода + бонусные 3D-модели**:
 
-Добывайте мана-руду, соберите древний алтарь и вызовите **Забытого Короля**
-из Пустоты. В бою сражаются магические витки, рунные големы и сам Лич.
-В руках — посохи: искр, мороза и скипетр Пустоты.
+| Что внутри | Версия | Лицензия |
+|------------|--------|----------|
+| Забытые Арканы (Forgotten Arcana) — магия, руда, алтарь, босс | 1.1.0 | Apache-2.0 |
+| Weapon Forge — Кузница стихий (84 стихийных оружия) | 1.0.0 | MIT |
+| Бонус: 3 новые 3D-модели + 3 достижения | — | Apache-2.0 |
+
+Forge умеет держать несколько модов в одном файле, поэтому в списке
+модов вы увидите две записи — это нормально: файл при этом один.
 
 ## Установка
 
 1. Установите [Forge 1.20.1](https://files.minecraftforge.net/) (47.x).
-2. Положите `ForgottenArcana-1.20.1-v1.1.0.jar` в папку `mods`.
-3. Запускайте игру.
+2. Положите **`ArcanaForge-1.20.1-v1.0.0.jar`** в папку `mods`.
+3. Запускайте игру. Отдельно ставить ForgottenArcana и WeaponForge
+   **не нужно** (и нельзя — будет конфликт дубликатов).
 
-| Файл | Версия |
-|------|--------|
-| `ForgottenArcana-1.20.1-v1.1.0.jar` | текущая |
-| `ForgottenArcana-1.20.1-v1.0.0.jar` | архивная |
+| Файл | Назначение |
+|------|------------|
+| `ArcanaForge-1.20.1-v1.0.0.jar` | **актуальный общий мод — ставьте его** |
+| `ForgottenArcana-1.20.1-v1.1.0.jar` | исходник сборки (архив) |
+| `ForgottenArcana-1.20.1-v1.0.0.jar` | старый архив |
+| `мод/weaponforge-1.0.0 (1).jar` | исходник сборки (архив) |
 
-## Содержимое
+## Что умеет сборка
 
-- **Блоки:** мана-руда (генерируется во всех биомах надмирного мира, венами до 9),
-  древний алтарь (с 3D-моделью и светящимся руническим кругом).
+### Забытые Арканы (forgottenarcana)
+- **Блоки:** мана-руда (вены до 9, высоты −64…40), древний алтарь
+  с 3D-моделью и светящимся руническим кругом.
 - **Предметы:** осколок и кристалл маны, Сердце Бездны, Посох искр,
   Жезл мороза, Скипетр Пустоты, Печать Забытого Короля, три вида
   магических стрел.
-- **Мобы:** Магический виток (спавн в лесах/горах/болотах),
-  Рунный голем, **Забытый Король** (босс, вызывается Печатью на алтаре).
+- **Мобы:** Магический виток, Рунный голем, **Забытый Король**
+  (босс, вызывается Печатью на алтаре).
 - **Эффект:** Обморожение (Frostbite).
-- **Контент данных:** рецепты, лут-таблицы, достижения, мир-генерация —
-  всё на JSON, без кода.
+- Рецепты, лут-таблицы, достижения, генерация мира.
+
+### Weapon Forge (weaponforge)
+- **84 оружия** (14 типов × 6 стихий: огонь, лёд, гроза, лес,
+  пустота, свет) с анимированными Blockbench-моделями.
+- У каждого оружия — комбо-способности, ульта за ярость и HUD слева сверху.
+- 6 стихийных ядер для крафта.
+
+### Бонусные модели (новое в сборке!)
+Три BB-модели из папки `мод/` сконвертированы в игровой формат и
+вшиты в сборку как особые облики существующих предметов
+(работают через `CustomModelData` — поведение предметов не меняется):
+
+| Облик | Как получить | Достижение |
+|-------|--------------|------------|
+| **Кристальный жезл** (вместо Посоха искр) | `/give @s forgottenarcana:staff_sparks{CustomModelData:101}` | «Жезл архимага» |
+| **Шляпа Рыцаря-Призрака** (вместо Печати Короля, печать по-прежнему призывает босса!) | `/give @s forgottenarcana:boss_seal{CustomModelData:102}` | «Шлем Рыцаря-Призрака» |
+| **Статуэтка Древнего Голема** (вместо яйца рунного голема, голем призывается как обычно) | `/give @s forgottenarcana:rune_golem_spawn_egg{CustomModelData:103}` | «Карманный голем» |
+
+Превью моделей (рендер из игровых файлов сборки):
+
+- `preview/magic_wand.png` — кристальный жезл (32 элемента)
+- `preview/ghost_knight_hat.png` — шляпа рыцаря-призрака (38 элементов)
+- `preview/ancient_golem_figurine.png` — Древний Голем (98 элементов)
 
 ## 3D-модели (BBModel / Blockbench)
 
-Все 3D-модели предметов и блоков сделаны в формате **BBModel**
-(нативный формат [Blockbench](https://www.blockbench.net/)).
-Исходники лежат в папке [`bbmodels/`](bbmodels/):
+Исходники всех моделей лежат в [`bbmodels/`](bbmodels/) (текстуры вшиты —
+открываются в Blockbench как есть). Новенькие из этой сборки:
 
 | Файл | Модель |
 |------|--------|
-| `bbmodels/void_heart.bbmodel` | Сердце Бездны |
-| `bbmodels/boss_seal.bbmodel` | Печать Забытого Короля |
-| `bbmodels/mana_crystal.bbmodel` | Кристалл маны |
-| `bbmodels/mana_shard.bbmodel` | Осколок маны |
-| `bbmodels/arcane_bolt.bbmodel` | Чародейская стрела |
-| `bbmodels/frost_bolt.bbmodel` | Ледяная стрела |
-| `bbmodels/void_bolt.bbmodel` | Болт Пустоты |
-| `bbmodels/staff_sparks.bbmodel` | Посох искр |
-| `bbmodels/frost_wand.bbmodel` | Жезл мороза |
-| `bbmodels/void_scepter.bbmodel` | Скипетр Пустоты |
-| `bbmodels/arcane_altar.bbmodel` | Древний алтарь (блок) |
-| `bbmodels/arcane_ore.bbmodel` | Мана-руда (блок) |
+| `bbmodels/magic_wand.bbmodel` | Кристальный жезл |
+| `bbmodels/ghost_knight_hat.bbmodel` | Шляпа Рыцаря-Призрака |
+| `bbmodels/ancient_golem.bbmodel` | Древний Голем (с анимацией idle) |
 
-Текстуры в `.bbmodel` вшиты (base64) — файлы открываются в Blockbench
-как есть, без внешних зависимостей.
+Остальные 12 файлов — модели Забытых Аркан (см. старый README в git-истории).
 
-**Как пользоваться:**
+## Как собрано (для любопытных)
 
-1. Откройте Blockbench → *Открыть файл* → выберите любой файл из `bbmodels/`.
-2. Правьте геометрию и текстуры.
-3. *Экспорт → Minecraft (Mojang mappings)* → выберите «предмет» или «блок» —
-   получите `models/item/<name>.json` (или `models/block/`) в ванильном формате.
-4. Текстуру экспортируйте как `textures/item/<name>.png` (16×16) и положите
-   в JAR рядом с остальными ассетами.
+Сборка полностью воспроизводима скриптом [`tools/build_bundle.py`](tools/build_bundle.py):
+1. Оба исходных JAR распаковываются и сливаются в один
+   (конфликтов файлов нет — неймспейсы `forgottenarcana` / `weaponforge`
+   и пакеты классов не пересекаются; общими были только
+   `mods.toml`, `MANIFEST.MF` и `pack.mcmeta` — они объединены).
+2. `mods.toml` содержит две секции `[[mods]]` — Forge загружает их
+   как два отдельных мода из одного файла. Код не менялся.
+3. BB-модели конвертируются в ванильные JSON-модели + PNG-текстуры
+   в неймспейс `arcanaforge` (проверки: координаты в −16…32,
+   повороты кратные 22.5°, UV в границах текстуры).
+4. На три предмета Аркан вешаются `overrides` по `CustomModelData`,
+   добавляются 3 достижения (родитель — `forgottenarcana:root`)
+   и переводы RU/EN.
 
-Именно так в JAR попадают актуальные модели: `assets/forgottenarcana/models/…`
-— это экспорт из `bbmodels/`.
+Пересобрать: `python3 tools/build_bundle.py`
+(нужен Python 3 + Pillow только для `tools/preview_models.py`).
 
 ## Структура проекта
 
 ```
-├── ForgottenArcana-1.20.1-v1.1.0.jar   # актуальный мод
-├── ForgottenArcana-1.20.1-v1.0.0.jar   # первая версия (архив)
-├── bbmodels/                            # исходники 3D-моделей (Blockbench)
+├── ArcanaForge-1.20.1-v1.0.0.jar      # ОБЩИЙ МОД — ставьте его
+├── ForgottenArcana-1.20.1-v1.1.0.jar   # исходник (архив)
+├── ForgottenArcana-1.20.1-v1.0.0.jar   # исходник (архив)
+├── мод/                                # исходники сборки: 2-й мод + 3 BB-модели
+├── bbmodels/                           # все 15 BB-моделей (Blockbench)
+├── tools/                              # build_bundle.py + preview_models.py
+├── preview/                            # рендеры бонусных моделей
 ├── CHANGELOG.md
-└── LICENSE                              # Apache-2.0
+└── LICENSE                             # Apache-2.0 (WeaponForge внутри — MIT)
 ```
 
-## Лицензия
+## Лицензии
 
-[Apache-2.0](LICENSE)
+- Forgotten Arcana и бонусный контент сборки — [Apache-2.0](LICENSE).
+- Weapon Forge внутри сборки — MIT (автор: Arena.ai Agent).
+  В `mods.toml` указано `Apache-2.0 AND MIT`.
 
 ---
 
-# Forgotten Arcana (EN)
+# ArcanaForge bundle (EN)
 
-A magic mod for **Minecraft 1.20.1 (Forge 47+)**.
-
-Mine arcane ore, build the Ancient Altar and summon the **Forgotten King**
-from the Void. Fight arcane wisps, rune golems and the Lich himself.
-Wield the Staff of Sparks, the Frost Wand and the Void Scepter.
-
-**Install:** put `ForgottenArcana-1.20.1-v1.1.0.jar` into your `mods` folder
-(Forge 1.20.1, 47.x).
-
-All 3D item/block models are authored in **BBModel** format (Blockbench) —
-sources with embedded textures live in [`bbmodels/`](bbmodels/).
-Open any file in Blockbench, edit, then *Export → Minecraft* to regenerate
-the vanilla `assets/forgottenarcana/models/…` JSON used by the JAR.
-
-See [CHANGELOG.md](CHANGELOG.md) for version details.
+One JAR for **Minecraft 1.20.1 (Forge 47+)** holding **two mods +
+bonus 3D models**: Forgotten Arcana 1.1.0 (magic, ore, altar, boss),
+Weapon Forge 1.0.0 (84 elemental weapons) and 3 new models wired as
+`CustomModelData` looks for existing items (see table above for
+`/give` commands). Install: drop `ArcanaForge-1.20.1-v1.0.0.jar`
+into `mods` (Forge 1.20.1, 47.x) — do NOT also install the two
+standalone jars. Rebuild anytime with `python3 tools/build_bundle.py`.

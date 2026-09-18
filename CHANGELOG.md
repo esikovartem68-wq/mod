@@ -1,5 +1,19 @@
 # Changelog
 
+## ArcanaForge v1.0.0 — 2026-09-18 (ОБЩИЙ МОД)
+- **Один JAR вместо двух:** ForgottenArcana 1.1.0 + WeaponForge 1.0.0
+  слиты в `ArcanaForge-1.20.1-v1.0.0.jar` (две секции `[[mods]]` в
+  `mods.toml`, код обоих модов без изменений).
+- **Бонусные 3D-модели** из папки `мод/` вшиты в игру:
+  кристальный жезл (32 элемента), шляпа Рыцаря-Призрака (38),
+  статуэтка Древнего Голема (98, ужата до высоты 14 блоков) —
+  как облики по `CustomModelData` 101/102/103.
+- **3 новых достижения** (RU/EN) за получение бонусных обликов.
+- Исходники моделей: `bbmodels/magic_wand.bbmodel`,
+  `bbmodels/ghost_knight_hat.bbmodel`, `bbmodels/ancient_golem.bbmodel`.
+- Воспроизводимая сборка: `tools/build_bundle.py`,
+  QA-рендеры: `tools/preview_models.py` → `preview/`.
+
 ## v1.1.0 — 2026-09-13
 
 ### 3D-модели (BBModel / Blockbench)
