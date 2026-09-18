@@ -7,3 +7,6 @@ work/
 .idea/
 .vscode/
 *.iml
+
+# python
+__pycache__/
