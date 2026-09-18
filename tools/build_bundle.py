@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Сборка общего мода ArcanaForge из содержимого папки `мод/` + bbmodels.
+"""Сборка общего мода ArcanaForge из исходных JAR + bbmodels.
 Builds ONE jar containing:
   1. ForgottenArcana 1.1.0 (full mod: code + assets + data)
   2. WeaponForge 1.0.0 (full mod: code + assets + data)
@@ -23,8 +23,8 @@ import zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC_FA = os.path.join(REPO, "ForgottenArcana-1.20.1-v1.1.0.jar")
-SRC_WF = os.path.join(REPO, "мод", "weaponforge-1.0.0 (1).jar")
-BB_DIR = os.path.join(REPO, "мод")
+SRC_WF = os.path.join(REPO, "weaponforge-1.0.0.jar")
+BB_DIR = os.path.join(REPO, "bbmodels")
 OUT_JAR = os.path.join(REPO, "ArcanaForge-1.20.1-v1.0.0.jar")
 
 BUNDLE_VERSION = "1.0.0"
@@ -35,9 +35,9 @@ SKIP_META = {"META-INF/MANIFEST.MF", "META-INF/mods.toml", "pack.mcmeta"}
 
 # bbmodel file -> (model name, texture file, normalize_to_height or None)
 BONUS = [
-    ("magic_wand (1).bbmodel", "magic_wand", None),
-    ("ghost_knight_mage_hat.bbmodel", "ghost_knight_hat", None),
-    ("Ancient_Golem.bbmodel", "ancient_golem_figurine", 14.0),
+    ("magic_wand.bbmodel", "magic_wand", None),
+    ("ghost_knight_hat.bbmodel", "ghost_knight_hat", None),
+    ("ancient_golem.bbmodel", "ancient_golem_figurine", 14.0),
 ]
 
 # (FA item model to patch, custom_model_data, bonus model)
